@@ -4,8 +4,7 @@ import MapCell from '../atom/MapCell';
 import '../App.css';
 import { colorMapper } from '../constants';
 
-const MapGenerator = ({ mapOptions }) => {
-  const { map, width, height } = mapOptions;
+const MapGenerator = ({ map, width, height }) => {
   const mapLength = map.length;
   const cellSize = 600 / mapLength;
 
