@@ -1,0 +1,16 @@
+.container {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.map-cell {
+  box-sizing: border-box;
+}
