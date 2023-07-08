@@ -1,3 +1,18 @@
+export const createRandomMap = (size = 8) => {
+  const map = [];
+
+  for (let i = 0; i < size; i++) {
+    const row = [];
+    for (let j = 0; j < size; j++) {
+      const randomValue = Math.floor(Math.random() * 9);
+      row.push(randomValue);
+    }
+    map.push(row);
+  }
+
+  return map;
+};
+
 export const transposeMap = (map) => {
   const transposedMap = [];
 
