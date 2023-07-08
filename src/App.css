@@ -1,9 +1,13 @@
+.App {
+  margin: 4px;
+}
+
 .container {
   width: 600px;
   height: 600px;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  border: solid 1.5px black;
+  box-sizing: border-box;
 }
 
 .row {
